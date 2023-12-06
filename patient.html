@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipient Registration - Blood Donation Management System</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body{
+        background-image: url(https://img.freepik.com/premium-vector/white-background-gradient-abstract-design-modern_343694-3049.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    </style>
+</head>
+<body>
+    <span style="width:100%">
+        <ul>
+            <li><a href="adminlogin.html" target="_self">AdminLogin</a></li>&nbsp;
+          <li><a href="blooddonation.html" target="_self">Home</a></li>&nbsp;
+         <li> <a href="about.html" target="_self">About</a></li>&nbsp;
+          <li><a href="contact.html" target="_self">Contact Us</a></li>
+          
+          </ul>
+     </span>
+     <div class="home">    
+        <pre style='text-align:center;color:white;font-size:20px;text-shadow:4px 4px 4px rgb(14, 18, 6)'><q>The blood you donate gives someone<br> another  chance at  life.</q></pre>
+        <h1>GIVE THE GIFT OF LIFE<BR><B>DONATE BLOOD</B></h1>
+      </div><br>
+
+  <main>
+    <div class="container">
+    <div class="myform">
+   
+      <h2>Recipient Registration</h2>
+      <form>
+        <label for="recipient-name">Name:</label>
+        <input type="text" id="recipient-name" name="recipient-name" required><br>
+
+        <label for="recipient-email">Email:</label>
+        <input type="email" id="recipient-email" name="recipient-email" required><br>
+
+        <label for="required-blood-type">Required Blood Type:</label>
+        <select id="required-blood-type" name="required-blood-type" required><br>
+          <option value="">Select</option>
+          <option value="A+">A+</option>
+          <option value="A-">A-</option>
+          <option value="B+">B+</option>
+          <option value="B-">B-</option>
+          <option value="AB+">AB+</option>
+          <option value="AB-">AB-</option>
+          <option value="O+">O+</option>
+          <option value="O-">O-</option>
+        </select><br><br>
+
+        <button type="submit" value="Register" onclick="alert('Registered Successfully')">Register</button>
+      </form>
+  
+    </div>
+    </div>
+  </main>
+
+ 
+
+</body>
+</html>
